@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE repositories SYSTEM "http://www.gentoo.org/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>haubi-overlay</name>
+    <description lang="en">Personal overlay with no special focus</description>
+    <homepage>https://github.com/haubi/gentoo-overlay</homepage>
+    <owner type="person">
+      <email>haubi@gentoo.org</email>
+      <name>Michael Haubenwallner</name>
+    </owner>
+    <source type="git">https://github.com/haubi/gentoo-overlay.git</source>
+    <source type="git">git://github.com/haubi/gentoo-overlay.git</source>
+    <source type="git">git@github.com:haubi/gentoo-overlay.git</source>
+    <feed>https://github.com/haubi/gentoo-overlay/commits/master.atom</feed>
+  </repo>
+  <!-- vim:se et sw=2 ts=2 sts=2 :-->
+</repositories>
