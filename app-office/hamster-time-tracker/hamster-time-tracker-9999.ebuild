@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=8
 
 inherit git-r3 gnome2-utils
 
@@ -20,10 +20,6 @@ RDEPEND="
 	${PYTHON_DEPS}"
 DEPEND="${RDEPEND}
 	dev-util/intltool"
-
-src_unpack() {
-	git-r3_src_unpack
-}
 
 src_prepare() {
 	default
